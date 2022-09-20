@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  margin: 0 auto;
+}
+
+*,
+h2,
+div,
+span {
+  box-sizing: border-box;
+  outline: 0;
+  color: #06244d;
+}
+
+h1 {
+  color: #0060df;
+}
+
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 24px #b4b4b4;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+}
+
+.qtd-caracteres {
+  width: 48px;
+}
+
+form button {
+  border: none;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.senha-gerada {
+  font-size: 1.25em;
+  margin: 24px 0;
+  color: #2da44e;
+  word-break: break-all;
+}
+
+input[type='checkbox'] {
+  width: 25px;
+  height: 25px;
+}
+
+button {
+  display: block;
+  margin: 40px 0;
+  font-size: 1em;
+  color: #fff;
+  background-color: #0060df;
+  border: 0px solid #0060df;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px #fff;
+  }
+}
+
+@media (max-width: 450px) {
+  .qtd-caracteres {
+    width: 254px;
+    padding: 4px 2px;
+    margin: 4px 0px 8px 0px;
+    font-size: 16px;
+  }
+}
